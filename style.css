@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stopwatch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+background: orange;
+width: 800px;
+height: 500px;
+padding: 2em;
+border-radius: 10px;
+}
+.stopwatch h1 {
+    text-align: center;
+    color: white;
+}
+.stopwatch h2 {
+    text-align: center;
+    color: white;
+}
+.buttons {
+    margin-top: 2em;
+text-align: center;
+}
+.buttons button {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-right: 3em;
+    padding-left: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: white;
+    background: orange;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttons button:hover {
+    background: white;
+    color: orange;
+}
+p {
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 40px;
+}
